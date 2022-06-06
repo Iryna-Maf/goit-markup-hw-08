@@ -1,0 +1,18 @@
+.header {
+  border-bottom: 1px solid var(--border-color-header);
+
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.link-item .link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}

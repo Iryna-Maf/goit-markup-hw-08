@@ -1,0 +1,23 @@
+/* Logo */
+
+.logo {
+  font-family: var(--font-logo);
+  color: var(--accent-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  display: block;
+
+  &__dark {
+    color: var(--title-text-color);
+  }
+
+  &__light {
+    color: var(--primary-white-color);
+  }
+}
+
+.nav__logo {
+  margin-right: 93px;
+}
