@@ -1,6 +1,8 @@
 /* Logo */
 
 .logo {
+  padding-top: 15px;
+  padding-bottom: 15px;
   font-family: var(--font-logo);
   color: var(--accent-color);
   font-weight: 700;
@@ -19,5 +21,7 @@
 }
 
 .nav__logo {
-  margin-right: 93px;
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
+  }
 }

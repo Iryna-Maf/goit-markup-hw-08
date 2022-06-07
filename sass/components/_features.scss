@@ -1,11 +1,15 @@
 /* Features */
 
 .features {
-  padding-top: 94px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .features-list {
-  --items: 4;
+  @media screen and (min-width: 1200px) {
+    --items: 4;
+    padding-top: 94px;
+  }
 
   &__icon {
     display: flex;
@@ -16,6 +20,7 @@
   }
 
   &__title {
+    display: flex;
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -24,6 +29,7 @@
     text-transform: uppercase;
     margin-top: 30px;
     margin-bottom: 10px;
+    justify-content: space-evenly;
   }
 
   &__text {

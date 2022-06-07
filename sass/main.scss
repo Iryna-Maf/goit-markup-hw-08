@@ -3,10 +3,12 @@
 @import './base/container';
 @import './base/grid';
 @import './base/visually-hidden';
+
 @import './components/header';
 @import './components/logo';
 @import './components/site-nav';
 @import './components/contacts-nav';
+@import './components/menu';
 @import './components/hero';
 @import './components/modal';
 @import './components/modal-form';
@@ -15,7 +17,5 @@
 @import './components/team';
 @import './components/customers';
 @import './components/footer';
-@import './components/footer-socials';
-@import './components/footer-newsletter';
 @import './components/filters-list';
 @import './components/projects-list';

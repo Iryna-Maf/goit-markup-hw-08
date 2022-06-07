@@ -1,17 +1,28 @@
 .projects {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .filters-list {
-  list-style: none;
-  justify-content: center;
-  margin-bottom: 34px;
   display: flex;
-  margin-bottom: 50px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+
+  @media screen and (min-width: 1200px) {
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 50px;
+  }
 
   &__item:not(:last-child) {
     margin-right: 8px;
+    margin-bottom: 15px;
   }
 }
 
