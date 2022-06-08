@@ -1,14 +1,13 @@
 /* Features */
 
 .features {
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 480px) and (max-width: 1199px) {
     padding-top: 60px;
-    // padding-bottom: 60px;
+    padding-bottom: 60px;
   }
 
   @media screen and (max-width: 768px) {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 0px;
   }
 
   @media screen and (min-width: 1199px) {
@@ -45,7 +44,7 @@
     margin-bottom: 10px;
     justify-content: space-evenly;
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 768px) {
       justify-content: left;
     }
   }
