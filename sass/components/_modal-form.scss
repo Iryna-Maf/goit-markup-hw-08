@@ -125,6 +125,10 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
+  @media screen and (min-width: 480px) and (max-width: 1199px) {
+    font-size: 11px;
+  }
 }
 
 .modal-form__agreement-txt-link {
