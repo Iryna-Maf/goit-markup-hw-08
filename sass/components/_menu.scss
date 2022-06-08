@@ -8,6 +8,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 }
 
 .mobile-menu {
@@ -75,6 +79,10 @@
   line-height: 40px;
   letter-spacing: 0.02em;
   color: var(--accent-color);
+
+  @media screen and (max-width: 320px) {
+    font-size: 24px;
+  }
 }
 
 .mobile-menu__contacts-email {
@@ -92,6 +100,10 @@
   line-height: 1.22;
   letter-spacing: 0.02em;
   color: var(--accent-color);
+
+  @media screen and (max-width: 320px) {
+    font-size: 12px;
+  }
 }
 
 .mobile-menu__socials-item:not(:last-child) {
